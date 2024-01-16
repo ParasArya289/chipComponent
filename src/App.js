@@ -5,7 +5,7 @@ import userData from "./userData";
 function App() {
   return (
     <div className="App">
-      <h2>Zepto</h2>
+      <h2>Pick User</h2>
       <Input data={userData} placeholder="Add new user"/>
     </div>
   );
