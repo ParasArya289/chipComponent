@@ -14,7 +14,7 @@ export const Input = ({ data, placeholder }) => {
   const blurTimeoutRef = useRef(null);
 
   const handleInput = (e) => {
-    setInputValue(e.target.innerText.trim());
+    setInputValue(e.target.innerText.trim().toLowerCase());
   };
 
   // filter user and sort data to closest match
