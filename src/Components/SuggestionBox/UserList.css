@@ -1,0 +1,34 @@
+.user {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+}
+.user:is(:hover, :focus) {
+  background-color: #edeeed;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-column {
+  display: flex;
+  align-items: center;
+  width: 150px;
+}
+
+.user-column img {
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.user-email {
+  color: #555;
+  font-size: x-small;
+}
