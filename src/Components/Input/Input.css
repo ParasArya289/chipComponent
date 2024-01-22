@@ -42,7 +42,8 @@
 }
 .input:focus + .suggestion_box,
 .suggestion_box:focus,
-.suggestion_box:focus-within {
+.suggestion_box:focus-within,
+.suggestion_box:hover {
   opacity: 1;
   pointer-events: visible;
 }
